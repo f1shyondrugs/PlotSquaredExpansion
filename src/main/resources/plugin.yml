@@ -1,0 +1,7 @@
+name: PlotSquaredExpansion
+version: '1.0-SNAPSHOT'
+main: com.f1shy312.plotSquaredExpansion.main
+api-version: '1.21'
+authors: [ Das_F1sHy312 ]
+description: Plotsquared Feature Expansion
+website: f1shy312.com
