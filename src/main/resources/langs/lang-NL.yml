@@ -1,0 +1,145 @@
+# PlotSquaredExpansion - Taalbestand (Nederlands)
+# Ondersteunt kleurcodes met & symbool
+# Vervang met andere talen indien nodig
+
+# Algemene berichten
+general:
+  prefix: "&9[PlotSquaredExpansion]&r "
+  no-permission: "&cJe hebt geen toestemming om dit commando te gebruiken."
+  plotsquared-not-found: "&cPlotSquared niet gevonden! Deze plugin heeft PlotSquared nodig om goed te werken."
+  player-only: "&cDit commando kan alleen door spelers worden gebruikt."
+  
+# Plot berichten
+plot:
+  not-on-plot: "&cJe moet op een plot staan om dit commando te gebruiken."
+  not-owner: "&cJe moet de eigenaar van dit plot zijn om de instellingen te wijzigen."
+  not-trusted: "&cJe moet vertrouwd zijn op dit plot om de instellingen te wijzigen."
+  
+# GUI berichten
+gui:
+  title:
+    main: "&9Plot instellingen"
+    boolean: "&9Boolean vlaggen"
+    custom: "&9Aangepaste vlaggen"
+    search: "&9Zoek vlaggen"
+    boolean-search: "&9Boolean vlaggen: '%query%'"
+    custom-search: "&9Aangepaste vlaggen: '%query%'"
+  
+  items:
+    boolean-flags:
+      name: "&a✅ Boolean vlaggen"
+      lore:
+        - "&7Klik om waar/onwaar"
+        - "&7plot vlaggen te bekijken en schakelen"
+        - ""
+        - "&eKlik om te openen!"
+    
+    custom-flags:
+      name: "&b📝 Aangepaste vlaggen"
+      lore:
+        - "&7Klik om tekst en numerieke"
+        - "&7vlaggen te bekijken en bewerken"
+        - ""
+        - "&eKlik om te openen!"
+    
+    search-flags:
+      name: "&e🔍 Zoek vlaggen"
+      lore:
+        - "&7Zoek naar specifieke vlaggen"
+        - "&7op naam"
+        - ""
+        - "&eKlik om te zoeken!"
+    
+    back:
+      name: "&c⬅ Terug"
+      lore:
+        - "&7Terug naar vorig menu"
+    
+    close:
+      name: "&c❌ Sluiten"
+      lore:
+        - "&7Sluit de GUI"
+    
+    # Navigatie knoppen
+    previous-page:
+      name: "&e◀ Vorige pagina"
+      lore:
+        - "&7Klik om naar pagina %page% te gaan"
+    
+    next-page:
+      name: "&eVolgende pagina ▶"
+      lore:
+        - "&7Klik om naar pagina %page% te gaan"
+    
+    # Schakel knoppen voor zoekresultaten
+    switch-to-custom:
+      name: "&eSchakel naar aangepaste vlaggen"
+      lore:
+        - "&7%count% aangepaste vlaggen gevonden"
+        - "&7Klik om aangepaste vlaggen te bekijken"
+    
+    switch-to-boolean:
+      name: "&eSchakel naar boolean vlaggen"
+      lore:
+        - "&7%count% boolean vlaggen gevonden"
+        - "&7Klik om boolean vlaggen te bekijken"
+  
+  # Vlag weergave
+  flag:
+    name-color: "&6"
+    click-to-toggle: "&eKlik om te schakelen!"
+    click-to-edit: "&eKlik om te bewerken!"
+
+# Vlag berichten
+flags:
+  enabled: "&a✅ Ingeschakeld"
+  disabled: "&c❌ Uitgeschakeld"
+  not-set: "Niet ingesteld"
+  
+  set-success: "&a✅ '&e%flag%&a' ingesteld op &e%value%&a."
+  set-error: "&c❌ Fout bij het instellen van vlag '&e%flag%&c'. Fout: %error%"
+  
+  toggle-enabled: "&a✅ '&e%flag%&a' ingeschakeld."
+  toggle-disabled: "&c❌ '&e%flag%&c' uitgeschakeld."
+  changed: "&a✅ '&e%flag%&a' gewijzigd naar &e%value%&a."
+  
+  not-found: "&c❌ Vlag '&e%flag%&c' niet gevonden."
+  
+  current-value: "&7Huidige waarde: &e%value%"
+  no-value: "&7Geen waarde ingesteld"
+
+# Chat invoer berichten
+chat-input:
+  prompt:
+    greeting: "&e✏️ Typ je nieuwe begroetingsbericht in de chat..."
+    farewell: "&e✏️ Typ je nieuwe afscheidsbericht in de chat..."
+    time: "&e✏️ Typ de tijdwaarde (0-24000) in de chat..."
+    weather: "&e✏️ Typ het weer (clear, rain, thunder) in de chat..."
+    generic: "&e✏️ Typ de nieuwe waarde voor '&a%flag%&e' in de chat..."
+  
+  cancel-info: "&7Typ '&ccancel&7' om te annuleren."
+  default-info: "&7Typ '&6DEFAULT&7' of '&6NONE&7' om de vlag te verwijderen en terug te keren naar standaardwaarden."
+  cancelled: "&c❌ Invoer geannuleerd."
+  timeout: "&c❌ Invoer time-out. Probeer opnieuw."
+  
+  invalid-value: "&c❌ Ongeldige waarde. Probeer opnieuw."
+  invalid-time: "&c❌ Ongeldige tijdwaarde. Moet tussen 0 en 24000 zijn."
+  invalid-weather: "&c❌ Ongeldig weer. Moet zijn: clear, rain of thunder."
+
+# Zoek berichten
+search:
+  prompt: "&e🔍 Typ de naam van de vlag die je wilt zoeken..."
+  no-results: "&c❌ Geen vlaggen gevonden die overeenkomen met '&e%query%&c'."
+  results-found: "&a✅ &e%count%&a vlag(gen) gevonden die '&e%query%&a' bevatten. Gefilterde weergave wordt geopend..."
+  boolean-results: "&a✅ &e%count%&a boolean vlag(gen) gevonden die '&e%query%&a' bevatten."
+  custom-results: "&a✅ &e%count%&a aangepaste vlag(gen) gevonden die '&e%query%&a' bevatten."
+  mixed-results: "&a✅ &e%total%&a vlag(gen) gevonden die '&e%query%&a' bevatten (&e%boolean%&a boolean, &e%custom%&a aangepast)."
+
+# Foutmeldingen
+errors:
+  generic: "&c❌ Er is een fout opgetreden: %error%"
+  flag-not-supported: "&c❌ Dit vlagtype wordt niet ondersteund in de GUI."
+  plot-api-error: "&c❌ Fout bij communicatie met PlotSquared API."
+  flag-change-failed: "&c❌ Fout bij het wijzigen van vlagwaarde."
+  no-plot: "&c❌ Je moet op een plot staan om dit te gebruiken."
+  set-flag-failed: "&c❌ Fout bij het instellen van vlag" 

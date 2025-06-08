@@ -1,0 +1,97 @@
+# PlotSquaredExpansion - Flags
+# This file contains all flags that will be shown in the GUI
+# Flags are displayed in the exact order they appear in this file
+
+# Boolean flags (anything that is true/false)
+boolean_flags:
+  - pvp
+  - pve
+  - fly
+  - animal-attack
+  - animal-interact
+  - beacon-effects
+  - block-burn
+  - block-ignition
+  - chat
+  - concrete-harden
+  - coral-dry
+  - crop-grow
+  - copper-oxide
+  - deny-exit
+  - deny-portal-travel
+  - deny-portals
+  - device-interact
+  - disable-physics
+  - drop-protection
+  - edit-sign
+  - entity-change-block
+  - explosion
+  - fishing
+  - forcefield
+  - grass-grow
+  - hanging-break
+  - hanging-place
+  - hide-info
+  - hostile-attack
+  - hostile-interact
+  - ice-form
+  - ice-melt
+  - instabreak
+  - invincible
+  - item-drop
+  - keep-inventory
+  - kelp-grow
+  - leaf-decay
+  - lectern-read-book
+  - misc-break
+  - misc-place
+  - misc-interact
+  - mob-break
+  - mob-place
+  - mycel-grow
+  - no-worldedit
+  - notify-enter
+  - notify-leave
+  - player-interact
+  - prevent-creative-copy
+  - projectiles
+  - projectile-change-block
+  - redstone
+  - server-plot
+  - snow-form
+  - snow-melt
+  - soil-dry
+  - tamed-attack
+  - tamed-interact
+  - tile-drop
+  - untrusted-visit
+  - vehicle-break
+  - vehicle-place
+  - vehicle-use
+  - villager-interact
+  - vine-grow
+
+# Custom flags (anything that requires a string or number input)
+custom_flags:
+  - greeting
+  - farewell
+  - description
+  - plot-title
+  - price
+  - time
+  - weather
+  - music
+  - gamemode
+  - guest-gamemode
+  - feed
+  - heal
+  - animal-cap
+  - entity-cap
+  - hostile-cap
+  - misc-cap
+  - mob-cap
+  - vehicle-cap
+  - blocked-cmds
+  - deny-teleport
+  - liquid-flow
+  - titles 

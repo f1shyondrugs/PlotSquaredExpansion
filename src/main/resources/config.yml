@@ -1,0 +1,43 @@
+# PlotSquaredExpansion Main Configuration
+# Version: 1.0
+
+# Plugin Settings
+plugin:
+  # Enable debug messages
+  debug: false
+  
+  # Check for updates on startup
+  check-updates: true
+
+# GUI Settings
+gui:
+  # GUI title format (supports color codes with &)
+  title: "&9Plot Settings"
+  
+  # GUI size (must be multiple of 9, max 54)
+  size: 27
+  
+  # Auto refresh GUI when flag values change
+  auto-refresh: true
+  
+  # Close GUI after flag change
+  close-after-change: false
+
+# Chat Input Settings
+chat-input:
+  # Timeout for chat input (seconds)
+  timeout: 30
+  
+  # Cancel keywords
+  cancel-words: ["cancel", "stop", "exit"]
+
+# Permission Settings
+permissions:
+  # Require plot ownership to access settings
+  require-ownership: true
+  
+  # Allow trusted members to modify flags
+  allow-trusted: false
+  
+  # Allow admins to bypass ownership checks
+  admin-bypass: true 

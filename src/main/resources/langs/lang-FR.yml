@@ -1,0 +1,145 @@
+# PlotSquaredExpansion - Fichier de langue (Français)
+# Supporte les codes de couleur avec le symbole &
+# Remplacer avec d'autres langues si nécessaire
+
+# Messages généraux
+general:
+  prefix: "&9[PlotSquaredExpansion]&r "
+  no-permission: "&cVous n'avez pas la permission d'utiliser cette commande."
+  plotsquared-not-found: "&cPlotSquared introuvable ! Ce plugin nécessite PlotSquared pour fonctionner correctement."
+  player-only: "&cCette commande ne peut être utilisée que par les joueurs."
+  
+# Messages de parcelle
+plot:
+  not-on-plot: "&cVous devez être sur une parcelle pour utiliser cette commande."
+  not-owner: "&cVous devez être le propriétaire de cette parcelle pour modifier ses paramètres."
+  not-trusted: "&cVous devez être de confiance sur cette parcelle pour modifier ses paramètres."
+  
+# Messages de l'interface utilisateur
+gui:
+  title:
+    main: "&9Paramètres de parcelle"
+    boolean: "&9Drapeaux booléens"
+    custom: "&9Drapeaux personnalisés"
+    search: "&9Rechercher des drapeaux"
+    boolean-search: "&9Drapeaux booléens : '%query%'"
+    custom-search: "&9Drapeaux personnalisés : '%query%'"
+  
+  items:
+    boolean-flags:
+      name: "&a✅ Drapeaux booléens"
+      lore:
+        - "&7Cliquez pour voir et basculer"
+        - "&7les drapeaux vrai/faux"
+        - ""
+        - "&eClic pour ouvrir !"
+    
+    custom-flags:
+      name: "&b📝 Drapeaux personnalisés"
+      lore:
+        - "&7Cliquez pour voir et modifier"
+        - "&7les drapeaux texte et numériques"
+        - ""
+        - "&eClic pour ouvrir !"
+    
+    search-flags:
+      name: "&e🔍 Rechercher des drapeaux"
+      lore:
+        - "&7Rechercher des drapeaux spécifiques"
+        - "&7par nom"
+        - ""
+        - "&eClic pour rechercher !"
+    
+    back:
+      name: "&c⬅ Retour"
+      lore:
+        - "&7Retourner au menu précédent"
+    
+    close:
+      name: "&c❌ Fermer"
+      lore:
+        - "&7Fermer l'interface"
+    
+    # Boutons de navigation
+    previous-page:
+      name: "&e◀ Page précédente"
+      lore:
+        - "&7Cliquez pour aller à la page %page%"
+    
+    next-page:
+      name: "&ePage suivante ▶"
+      lore:
+        - "&7Cliquez pour aller à la page %page%"
+    
+    # Boutons de commutation pour les résultats de recherche
+    switch-to-custom:
+      name: "&eBasculer vers les drapeaux personnalisés"
+      lore:
+        - "&7%count% drapeaux personnalisés trouvés"
+        - "&7Cliquez pour voir les drapeaux personnalisés"
+    
+    switch-to-boolean:
+      name: "&eBasculer vers les drapeaux booléens"
+      lore:
+        - "&7%count% drapeaux booléens trouvés"
+        - "&7Cliquez pour voir les drapeaux booléens"
+  
+  # Affichage des drapeaux
+  flag:
+    name-color: "&6"
+    click-to-toggle: "&eCliquez pour basculer !"
+    click-to-edit: "&eCliquez pour modifier !"
+
+# Messages de drapeaux
+flags:
+  enabled: "&a✅ Activé"
+  disabled: "&c❌ Désactivé"
+  not-set: "Non défini"
+  
+  set-success: "&a✅ Défini '&e%flag%&a' sur &e%value%&a."
+  set-error: "&c❌ Échec de la définition du drapeau '&e%flag%&c'. Erreur : %error%"
+  
+  toggle-enabled: "&a✅ Activé '&e%flag%&a'."
+  toggle-disabled: "&c❌ Désactivé '&e%flag%&c'."
+  changed: "&a✅ Changé '&e%flag%&a' vers &e%value%&a."
+  
+  not-found: "&c❌ Drapeau '&e%flag%&c' introuvable."
+  
+  current-value: "&7Valeur actuelle : &e%value%"
+  no-value: "&7Aucune valeur définie"
+
+# Messages de saisie de chat
+chat-input:
+  prompt:
+    greeting: "&e✏️ Veuillez taper votre nouveau message d'accueil dans le chat..."
+    farewell: "&e✏️ Veuillez taper votre nouveau message d'adieu dans le chat..."
+    time: "&e✏️ Veuillez taper la valeur de temps (0-24000) dans le chat..."
+    weather: "&e✏️ Veuillez taper le temps (clear, rain, thunder) dans le chat..."
+    generic: "&e✏️ Veuillez taper la nouvelle valeur pour '&a%flag%&e' dans le chat..."
+  
+  cancel-info: "&7Tapez '&ccancel&7' pour annuler."
+  default-info: "&7Tapez '&6DEFAULT&7' ou '&6NONE&7' pour supprimer le drapeau et revenir aux paramètres par défaut."
+  cancelled: "&c❌ Saisie annulée."
+  timeout: "&c❌ Délai de saisie dépassé. Veuillez réessayer."
+  
+  invalid-value: "&c❌ Valeur invalide. Veuillez réessayer."
+  invalid-time: "&c❌ Valeur de temps invalide. Doit être entre 0 et 24000."
+  invalid-weather: "&c❌ Temps invalide. Doit être : clear, rain ou thunder."
+
+# Messages de recherche
+search:
+  prompt: "&e🔍 Tapez le nom du drapeau que vous voulez rechercher..."
+  no-results: "&c❌ Aucun drapeau trouvé correspondant à '&e%query%&c'."
+  results-found: "&a✅ Trouvé &e%count%&a drapeau(x) contenant '&e%query%&a'. Ouverture de la vue filtrée..."
+  boolean-results: "&a✅ Trouvé &e%count%&a drapeau(x) booléen(s) contenant '&e%query%&a'."
+  custom-results: "&a✅ Trouvé &e%count%&a drapeau(x) personnalisé(s) contenant '&e%query%&a'."
+  mixed-results: "&a✅ Trouvé &e%total%&a drapeau(x) contenant '&e%query%&a' (&e%boolean%&a booléens, &e%custom%&a personnalisés)."
+
+# Messages d'erreur
+errors:
+  generic: "&c❌ Une erreur s'est produite : %error%"
+  flag-not-supported: "&c❌ Ce type de drapeau n'est pas supporté dans l'interface."
+  plot-api-error: "&c❌ Échec de la communication avec l'API PlotSquared."
+  flag-change-failed: "&c❌ Échec du changement de valeur du drapeau."
+  no-plot: "&c❌ Vous devez être sur une parcelle pour utiliser ceci."
+  set-flag-failed: "&c❌ Échec de la définition du drapeau" 

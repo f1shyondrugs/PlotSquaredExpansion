@@ -1,0 +1,145 @@
+# PlotSquaredExpansion - Arquivo de idioma (Português)
+# Suporta códigos de cor com o símbolo &
+# Substitua por outros idiomas conforme necessário
+
+# Mensagens gerais
+general:
+  prefix: "&9[PlotSquaredExpansion]&r "
+  no-permission: "&cVocê não tem permissão para usar este comando."
+  plotsquared-not-found: "&cPlotSquared não encontrado! Este plugin requer PlotSquared para funcionar corretamente."
+  player-only: "&cEste comando só pode ser usado por jogadores."
+  
+# Mensagens de terreno
+plot:
+  not-on-plot: "&cVocê deve estar em um terreno para usar este comando."
+  not-owner: "&cVocê deve ser o proprietário deste terreno para modificar suas configurações."
+  not-trusted: "&cVocê deve ser confiável neste terreno para modificar suas configurações."
+  
+# Mensagens da interface gráfica
+gui:
+  title:
+    main: "&9Configurações do terreno"
+    boolean: "&9Bandeiras booleanas"
+    custom: "&9Bandeiras personalizadas"
+    search: "&9Pesquisar bandeiras"
+    boolean-search: "&9Bandeiras booleanas: '%query%'"
+    custom-search: "&9Bandeiras personalizadas: '%query%'"
+  
+  items:
+    boolean-flags:
+      name: "&a✅ Bandeiras booleanas"
+      lore:
+        - "&7Clique para visualizar e alternar"
+        - "&7bandeiras verdadeiro/falso do terreno"
+        - ""
+        - "&eClique para abrir!"
+    
+    custom-flags:
+      name: "&b📝 Bandeiras personalizadas"
+      lore:
+        - "&7Clique para visualizar e editar"
+        - "&7bandeiras de texto e numéricas"
+        - ""
+        - "&eClique para abrir!"
+    
+    search-flags:
+      name: "&e🔍 Pesquisar bandeiras"
+      lore:
+        - "&7Pesquisar por bandeiras específicas"
+        - "&7por nome"
+        - ""
+        - "&eClique para pesquisar!"
+    
+    back:
+      name: "&c⬅ Voltar"
+      lore:
+        - "&7Voltar ao menu anterior"
+    
+    close:
+      name: "&c❌ Fechar"
+      lore:
+        - "&7Fechar a interface"
+    
+    # Botões de navegação
+    previous-page:
+      name: "&e◀ Página anterior"
+      lore:
+        - "&7Clique para ir à página %page%"
+    
+    next-page:
+      name: "&ePróxima página ▶"
+      lore:
+        - "&7Clique para ir à página %page%"
+    
+    # Botões de mudança para resultados de pesquisa
+    switch-to-custom:
+      name: "&eMudar para bandeiras personalizadas"
+      lore:
+        - "&7%count% bandeiras personalizadas encontradas"
+        - "&7Clique para ver bandeiras personalizadas"
+    
+    switch-to-boolean:
+      name: "&eMudar para bandeiras booleanas"
+      lore:
+        - "&7%count% bandeiras booleanas encontradas"
+        - "&7Clique para ver bandeiras booleanas"
+  
+  # Exibição de bandeiras
+  flag:
+    name-color: "&6"
+    click-to-toggle: "&eClique para alternar!"
+    click-to-edit: "&eClique para editar!"
+
+# Mensagens de bandeiras
+flags:
+  enabled: "&a✅ Habilitado"
+  disabled: "&c❌ Desabilitado"
+  not-set: "Não definido"
+  
+  set-success: "&a✅ Definido '&e%flag%&a' para &e%value%&a."
+  set-error: "&c❌ Falha ao definir bandeira '&e%flag%&c'. Erro: %error%"
+  
+  toggle-enabled: "&a✅ Habilitado '&e%flag%&a'."
+  toggle-disabled: "&c❌ Desabilitado '&e%flag%&c'."
+  changed: "&a✅ Alterado '&e%flag%&a' para &e%value%&a."
+  
+  not-found: "&c❌ Bandeira '&e%flag%&c' não encontrada."
+  
+  current-value: "&7Valor atual: &e%value%"
+  no-value: "&7Nenhum valor definido"
+
+# Mensagens de entrada de chat
+chat-input:
+  prompt:
+    greeting: "&e✏️ Por favor, digite sua nova mensagem de saudação no chat..."
+    farewell: "&e✏️ Por favor, digite sua nova mensagem de despedida no chat..."
+    time: "&e✏️ Por favor, digite o valor do tempo (0-24000) no chat..."
+    weather: "&e✏️ Por favor, digite o clima (clear, rain, thunder) no chat..."
+    generic: "&e✏️ Por favor, digite o novo valor para '&a%flag%&e' no chat..."
+  
+  cancel-info: "&7Digite '&ccancel&7' para cancelar."
+  default-info: "&7Digite '&6DEFAULT&7' ou '&6NONE&7' para remover a bandeira e voltar às configurações padrão."
+  cancelled: "&c❌ Entrada cancelada."
+  timeout: "&c❌ Tempo limite da entrada esgotado. Tente novamente."
+  
+  invalid-value: "&c❌ Valor inválido. Tente novamente."
+  invalid-time: "&c❌ Valor de tempo inválido. Deve estar entre 0 e 24000."
+  invalid-weather: "&c❌ Clima inválido. Deve ser: clear, rain ou thunder."
+
+# Mensagens de pesquisa
+search:
+  prompt: "&e🔍 Digite o nome da bandeira que você quer pesquisar..."
+  no-results: "&c❌ Nenhuma bandeira encontrada correspondendo a '&e%query%&c'."
+  results-found: "&a✅ Encontradas &e%count%&a bandeira(s) contendo '&e%query%&a'. Abrindo visualização filtrada..."
+  boolean-results: "&a✅ Encontradas &e%count%&a bandeira(s) booleana(s) contendo '&e%query%&a'."
+  custom-results: "&a✅ Encontradas &e%count%&a bandeira(s) personalizada(s) contendo '&e%query%&a'."
+  mixed-results: "&a✅ Encontradas &e%total%&a bandeira(s) contendo '&e%query%&a' (&e%boolean%&a booleanas, &e%custom%&a personalizadas)."
+
+# Mensagens de erro
+errors:
+  generic: "&c❌ Ocorreu um erro: %error%"
+  flag-not-supported: "&c❌ Este tipo de bandeira não é suportado na interface."
+  plot-api-error: "&c❌ Falha ao comunicar com a API PlotSquared."
+  flag-change-failed: "&c❌ Falha ao alterar valor da bandeira."
+  no-plot: "&c❌ Você deve estar em um terreno para usar isto."
+  set-flag-failed: "&c❌ Falha ao definir bandeira" 

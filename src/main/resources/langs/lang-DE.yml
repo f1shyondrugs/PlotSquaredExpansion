@@ -1,0 +1,145 @@
+# PlotSquaredExpansion - Sprachdatei (Deutsch)
+# Unterstützt Farbcodes mit & Symbol
+# Nach Bedarf mit anderen Sprachen ersetzen
+
+# Allgemeine Nachrichten
+general:
+  prefix: "&9[PlotSquaredExpansion]&r "
+  no-permission: "&cDu hast keine Berechtigung, diesen Befehl zu verwenden."
+  plotsquared-not-found: "&cPlotSquared nicht gefunden! Dieses Plugin benötigt PlotSquared, um ordnungsgemäß zu funktionieren."
+  player-only: "&cDieser Befehl kann nur von Spielern verwendet werden."
+  
+# Plot-Nachrichten
+plot:
+  not-on-plot: "&cDu musst auf einem Plot stehen, um diesen Befehl zu verwenden."
+  not-owner: "&cDu musst der Besitzer dieses Plots sein, um seine Einstellungen zu ändern."
+  not-trusted: "&cDu musst auf diesem Plot vertrauenswürdig sein, um seine Einstellungen zu ändern."
+  
+# GUI-Nachrichten
+gui:
+  title:
+    main: "&9Plot-Einstellungen"
+    boolean: "&9Boolean-Flags"
+    custom: "&9Benutzerdefinierte Flags"
+    search: "&9Flags suchen"
+    boolean-search: "&9Boolean-Flags: '%query%'"
+    custom-search: "&9Benutzerdefinierte Flags: '%query%'"
+  
+  items:
+    boolean-flags:
+      name: "&a✅ Boolean-Flags"
+      lore:
+        - "&7Klicken zum Anzeigen und Umschalten"
+        - "&7von wahr/falsch Plot-Flags"
+        - ""
+        - "&eKlicken zum Öffnen!"
+    
+    custom-flags:
+      name: "&b📝 Benutzerdefinierte Flags"
+      lore:
+        - "&7Klicken zum Anzeigen und Bearbeiten"
+        - "&7von Text- und Zahlen-Flags"
+        - ""
+        - "&eKlicken zum Öffnen!"
+    
+    search-flags:
+      name: "&e🔍 Flags suchen"
+      lore:
+        - "&7Nach bestimmten Flags"
+        - "&7nach Namen suchen"
+        - ""
+        - "&eKlicken zum Suchen!"
+    
+    back:
+      name: "&c⬅ Zurück"
+      lore:
+        - "&7Zum vorherigen Menü zurückkehren"
+    
+    close:
+      name: "&c❌ Schließen"
+      lore:
+        - "&7Die GUI schließen"
+    
+    # Navigations-Buttons
+    previous-page:
+      name: "&e◀ Vorherige Seite"
+      lore:
+        - "&7Klicken, um zu Seite %page% zu gehen"
+    
+    next-page:
+      name: "&eNächste Seite ▶"
+      lore:
+        - "&7Klicken, um zu Seite %page% zu gehen"
+    
+    # Wechsel-Buttons für Suchergebnisse
+    switch-to-custom:
+      name: "&eZu benutzerdefinierten Flags wechseln"
+      lore:
+        - "&7%count% benutzerdefinierte Flags gefunden"
+        - "&7Klicken, um benutzerdefinierte Flags anzuzeigen"
+    
+    switch-to-boolean:
+      name: "&eZu Boolean-Flags wechseln"
+      lore:
+        - "&7%count% Boolean-Flags gefunden"
+        - "&7Klicken, um Boolean-Flags anzuzeigen"
+  
+  # Flag-Anzeige
+  flag:
+    name-color: "&6"
+    click-to-toggle: "&eKlicken zum Umschalten!"
+    click-to-edit: "&eKlicken zum Bearbeiten!"
+
+# Flag-Nachrichten
+flags:
+  enabled: "&a✅ Aktiviert"
+  disabled: "&c❌ Deaktiviert"
+  not-set: "Nicht gesetzt"
+  
+  set-success: "&a✅ '&e%flag%&a' auf &e%value%&a gesetzt."
+  set-error: "&c❌ Fehler beim Setzen von Flag '&e%flag%&c'. Fehler: %error%"
+  
+  toggle-enabled: "&a✅ '&e%flag%&a' aktiviert."
+  toggle-disabled: "&c❌ '&e%flag%&c' deaktiviert."
+  changed: "&a✅ '&e%flag%&a' zu &e%value%&a geändert."
+  
+  not-found: "&c❌ Flag '&e%flag%&c' nicht gefunden."
+  
+  current-value: "&7Aktueller Wert: &e%value%"
+  no-value: "&7Kein Wert gesetzt"
+
+# Chat-Eingabe-Nachrichten
+chat-input:
+  prompt:
+    greeting: "&e✏️ Bitte gib deine neue Begrüßungsnachricht im Chat ein..."
+    farewell: "&e✏️ Bitte gib deine neue Abschiedsnachricht im Chat ein..."
+    time: "&e✏️ Bitte gib den Zeitwert (0-24000) im Chat ein..."
+    weather: "&e✏️ Bitte gib das Wetter (clear, rain, thunder) im Chat ein..."
+    generic: "&e✏️ Bitte gib den neuen Wert für '&a%flag%&e' im Chat ein..."
+  
+  cancel-info: "&7Schreibe '&ccancel&7' zum Abbrechen."
+  default-info: "&7Schreibe '&6DEFAULT&7' oder '&6NONE&7', um das Flag zu entfernen und zu den Standardeinstellungen zurückzukehren."
+  cancelled: "&c❌ Eingabe abgebrochen."
+  timeout: "&c❌ Eingabe-Timeout. Bitte versuche es erneut."
+  
+  invalid-value: "&c❌ Ungültiger Wert. Bitte versuche es erneut."
+  invalid-time: "&c❌ Ungültiger Zeitwert. Muss zwischen 0 und 24000 liegen."
+  invalid-weather: "&c❌ Ungültiges Wetter. Muss sein: clear, rain oder thunder."
+
+# Such-Nachrichten
+search:
+  prompt: "&e🔍 Gib den Namen des Flags ein, nach dem du suchen möchtest..."
+  no-results: "&c❌ Keine Flags gefunden, die '&e%query%&c' entsprechen."
+  results-found: "&a✅ &e%count%&a Flag(s) gefunden, die '&e%query%&a' enthalten. Gefilterte Ansicht wird geöffnet..."
+  boolean-results: "&a✅ &e%count%&a Boolean-Flag(s) gefunden, die '&e%query%&a' enthalten."
+  custom-results: "&a✅ &e%count%&a benutzerdefinierte Flag(s) gefunden, die '&e%query%&a' enthalten."
+  mixed-results: "&a✅ &e%total%&a Flag(s) gefunden, die '&e%query%&a' enthalten (&e%boolean%&a Boolean, &e%custom%&a benutzerdefiniert)."
+
+# Fehlermeldungen
+errors:
+  generic: "&c❌ Ein Fehler ist aufgetreten: %error%"
+  flag-not-supported: "&c❌ Dieser Flag-Typ wird in der GUI nicht unterstützt."
+  plot-api-error: "&c❌ Fehler bei der Kommunikation mit der PlotSquared-API."
+  flag-change-failed: "&c❌ Fehler beim Ändern des Flag-Werts."
+  no-plot: "&c❌ Du musst auf einem Plot stehen, um dies zu verwenden."
+  set-flag-failed: "&c❌ Fehler beim Setzen des Flags" 

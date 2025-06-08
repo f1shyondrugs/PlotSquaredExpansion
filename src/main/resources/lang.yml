@@ -1,0 +1,146 @@
+# PlotSquaredExpansion - Language File
+# Supports color codes with & symbol
+# Replace with other languages as needed
+
+# General Messages
+general:
+  prefix: "&9[PlotSquaredExpansion]&r "
+  no-permission: "&cYou don't have permission to use this command."
+  plotsquared-not-found: "&cPlotSquared not found! This plugin requires PlotSquared to work properly."
+  player-only: "&cThis command can only be used by players."
+  
+# Plot Messages
+plot:
+  not-on-plot: "&cYou must be standing on a plot to use this command."
+  not-owner: "&cYou must be the owner of this plot to modify its settings."
+  not-trusted: "&cYou must be trusted on this plot to modify its settings."
+  
+# GUI Messages
+gui:
+  title:
+    main: "&9Plot Settings"
+    boolean: "&9Boolean Flags"
+    custom: "&9Custom Flags"
+    search: "&9Search Flags"
+    boolean-search: "&9Boolean Flags: '%query%'"
+    custom-search: "&9Custom Flags: '%query%'"
+  
+  items:
+    boolean-flags:
+      name: "&a✅ Boolean Flags"
+      lore:
+        - "&7Click to view and toggle"
+        - "&7true/false plot flags"
+        - ""
+        - "&eClick to open!"
+    
+    custom-flags:
+      name: "&b📝 Custom Flags"
+      lore:
+        - "&7Click to view and edit"
+        - "&7string and numerical flags"
+        - ""
+        - "&eClick to open!"
+    
+    search-flags:
+      name: "&e🔍 Search Flags"
+      lore:
+        - "&7Search for specific flags"
+        - "&7by name"
+        - ""
+        - "&eClick to search!"
+    
+    back:
+      name: "&c⬅ Back"
+      lore:
+        - "&7Return to previous menu"
+    
+    close:
+      name: "&c❌ Close"
+      lore:
+        - "&7Close the GUI"
+    
+    # Navigation buttons
+    previous-page:
+      name: "&e◀ Previous Page"
+      lore:
+        - "&7Click to go to page %page%"
+    
+    next-page:
+      name: "&eNext Page ▶"
+      lore:
+        - "&7Click to go to page %page%"
+    
+    # Switch buttons for search results
+    switch-to-custom:
+      name: "&eSwitch to Custom Flags"
+      lore:
+        - "&7Found %count% custom flags"
+        - "&7Click to view custom flags"
+    
+    switch-to-boolean:
+      name: "&eSwitch to Boolean Flags"
+      lore:
+        - "&7Found %count% boolean flags"
+        - "&7Click to view boolean flags"
+  
+  # Flag display
+  flag:
+    name-color: "&6"
+    click-to-toggle: "&eClick to toggle!"
+    click-to-edit: "&eClick to edit!"
+
+# Flag Messages
+flags:
+  enabled: "&a✅ Enabled"
+  disabled: "&c❌ Disabled"
+  not-set: "Not set"
+  
+  set-success: "&a✅ Set '&e%flag%&a' to &e%value%&a."
+  set-error: "&c❌ Failed to set flag '&e%flag%&c'. Error: %error%"
+  
+  toggle-enabled: "&a✅ Enabled '&e%flag%&a'."
+  toggle-disabled: "&c❌ Disabled '&e%flag%&c'."
+  changed: "&a✅ Changed '&e%flag%&a' to &e%value%&a."
+  
+  not-found: "&c❌ Flag '&e%flag%&c' not found."
+  
+  current-value: "&7Current value: &e%value%"
+  no-value: "&7No value set"
+
+# Chat Input Messages
+chat-input:
+  prompt:
+    greeting: "&e✏️ Please type your new greeting message in chat..."
+    farewell: "&e✏️ Please type your new farewell message in chat..."
+    time: "&e✏️ Please type the time value (0-24000) in chat..."
+    weather: "&e✏️ Please type the weather (clear, rain, thunder) in chat..."
+    generic: "&e✏️ Please type the new value for '&a%flag%&e' in chat..."
+  
+  cancel-info: "&7Type '&ccancel&7' to cancel."
+  default-info: "&7Type '&6DEFAULT&7' or '&6NONE&7' to remove the flag and return to default."
+  cancelled: "&c❌ Input cancelled."
+  timeout: "&c❌ Input timed out. Please try again."
+  
+  invalid-value: "&c❌ Invalid value. Please try again."
+  invalid-time: "&c❌ Invalid time value. Must be between 0 and 24000."
+  invalid-weather: "&c❌ Invalid weather. Must be: clear, rain, or thunder."
+
+# Search Messages
+search:
+  prompt: "&e🔍 Type the flag name you want to search for..."
+  no-results: "&c❌ No flags found matching '&e%query%&c'."
+  results-found: "&a✅ Found &e%count%&a flag(s) containing '&e%query%&a'. Opening filtered view..."
+  boolean-results: "&a✅ Found &e%count%&a boolean flag(s) containing '&e%query%&a'."
+  custom-results: "&a✅ Found &e%count%&a custom flag(s) containing '&e%query%&a'."
+  mixed-results: "&a✅ Found &e%total%&a flag(s) containing '&e%query%&a' (&e%boolean%&a boolean, &e%custom%&a custom)."
+
+# Error Messages
+errors:
+  generic: "&c❌ An error occurred: %error%"
+  flag-not-supported: "&c❌ This flag type is not supported in the GUI."
+  plot-api-error: "&c❌ Failed to communicate with PlotSquared API."
+  flag-change-failed: "&c❌ Failed to change flag value."
+  no-plot: "&c❌ You must be standing on a plot to use this."
+  set-flag-failed: "&c❌ Failed to set flag"
+  

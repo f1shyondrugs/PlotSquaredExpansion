@@ -1,7 +1,22 @@
 name: PlotSquaredExpansion
 version: '1.0-SNAPSHOT'
-main: com.f1shy312.plotSquaredExpansion.main
-api-version: '1.21'
+main: com.f1shy312.plotsquaredexpansion.PlotSquaredExpansion
+api-version: '1.20'
 authors: [ Das_F1sHy312 ]
-description: Plotsquared Feature Expansion
+description: Modular Feature Expansion for PlotSquared v7-Premium
 website: f1shy312.com
+softdepend: [ PlotSquared ]
+
+commands:
+  plot:
+    description: "PlotSquared main command with settings extension"
+    aliases: [ p ]
+    usage: "Usage: /plot settings"
+
+permissions:
+  plotsquaredexpansion.settings:
+    description: "Access to plot settings GUI"
+    default: true
+  plotsquaredexpansion.admin:
+    description: "Administrative permissions"
+    default: op
