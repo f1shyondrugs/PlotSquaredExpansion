@@ -12,8 +12,9 @@ general:
 # Mensajes de parcela
 plot:
   not-on-plot: "&cDebes estar parado en una parcela para usar este comando."
-  not-owner: "&cDebes ser el propietario de esta parcela para modificar su configuración."
-  not-trusted: "&cDebes tener confianza en esta parcela para modificar su configuración."
+  not-owner: "&cDebes ser el propietario de esta parcela para modificar sus configuraciones."
+  not-trusted: "&cDebes ser confiable en esta parcela para modificar sus configuraciones."
+  unclaimed: "&cEsta parcela no está reclamada. Solo las parcelas reclamadas pueden tener sus configuraciones modificadas."
   
 # Mensajes de interfaz gráfica
 gui:

@@ -14,6 +14,7 @@ plot:
   not-on-plot: "&cJe moet op een plot staan om dit commando te gebruiken."
   not-owner: "&cJe moet de eigenaar van dit plot zijn om de instellingen te wijzigen."
   not-trusted: "&cJe moet vertrouwd zijn op dit plot om de instellingen te wijzigen."
+  unclaimed: "&cDit plot is niet geclaimd. Alleen geclaimde plots kunnen hun instellingen gewijzigd hebben."
   
 # GUI berichten
 gui:

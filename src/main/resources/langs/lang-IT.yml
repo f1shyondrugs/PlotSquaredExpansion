@@ -13,7 +13,8 @@ general:
 plot:
   not-on-plot: "&cDevi essere su un lotto per usare questo comando."
   not-owner: "&cDevi essere il proprietario di questo lotto per modificare le sue impostazioni."
-  not-trusted: "&cDevi essere di fiducia su questo lotto per modificare le sue impostazioni."
+  not-trusted: "&cDevi essere fidato su questo lotto per modificare le sue impostazioni."
+  unclaimed: "&cQuesto lotto non è rivendicato. Solo i lotti rivendicati possono avere le loro impostazioni modificate."
   
 # Messaggi dell'interfaccia grafica
 gui:

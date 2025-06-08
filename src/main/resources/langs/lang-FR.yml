@@ -14,6 +14,7 @@ plot:
   not-on-plot: "&cVous devez être sur une parcelle pour utiliser cette commande."
   not-owner: "&cVous devez être le propriétaire de cette parcelle pour modifier ses paramètres."
   not-trusted: "&cVous devez être de confiance sur cette parcelle pour modifier ses paramètres."
+  unclaimed: "&cCette parcelle n'est pas réclamée. Seules les parcelles réclamées peuvent avoir leurs paramètres modifiés."
   
 # Messages de l'interface utilisateur
 gui:

@@ -7,12 +7,6 @@ description: Modular Feature Expansion for PlotSquared v7-Premium
 website: f1shy312.com
 softdepend: [ PlotSquared ]
 
-commands:
-  plot:
-    description: "PlotSquared main command with settings extension"
-    aliases: [ p ]
-    usage: "Usage: /plot settings"
-
 permissions:
   plotsquaredexpansion.settings:
     description: "Access to plot settings GUI"

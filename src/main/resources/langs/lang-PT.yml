@@ -14,6 +14,7 @@ plot:
   not-on-plot: "&cVocê deve estar em um terreno para usar este comando."
   not-owner: "&cVocê deve ser o proprietário deste terreno para modificar suas configurações."
   not-trusted: "&cVocê deve ser confiável neste terreno para modificar suas configurações."
+  unclaimed: "&cEste terreno não está reivindicado. Apenas terrenos reivindicados podem ter suas configurações modificadas."
   
 # Mensagens da interface gráfica
 gui:

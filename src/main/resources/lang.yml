@@ -14,6 +14,7 @@ plot:
   not-on-plot: "&cYou must be standing on a plot to use this command."
   not-owner: "&cYou must be the owner of this plot to modify its settings."
   not-trusted: "&cYou must be trusted on this plot to modify its settings."
+  unclaimed: "&cThis plot is unclaimed. Only claimed plots can have their settings modified."
   
 # GUI Messages
 gui:
